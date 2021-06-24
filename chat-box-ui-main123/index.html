@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Level Chat-Box UI</title>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- chat box -->
+        <div class="chat-box">
+            <!-- client -->
+            <div class="client">
+                <img src="logo.png" alt="logo" />
+                <div class="client-info">
+                    <h2>Anvi chat</h2>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+
+            <!-- main chat section -->
+            <div class="chats">
+                <div class="client-chat">Hi!</div>
+                <div class="my-chat">Hi!</div>
+                <div class="client-chat">How can i help you?</div>
+                <div class="my-chat">What price of chat box?</div>
+                <div class="client-chat"> For complete information call us  </div>     
+                <div class="my-chat"> contact number</div>        
+          </div>
+          <div id="chatbox">
+            <h5 id="chat-timestamp"></h5>
+            <p class="botText">
+              <!-- <span>Loading...</span> -->
+            </p>
+          </div>
+            
+
+
+             <div class="chat-input" id="userText">
+                <input id="textInput" type="text" placeholder="Start..." />
+                <button class="send-btn" onclick="buttonSendText()">
+                    <img src="send.png" alt="send-btn">
+                </button>
+            </div>  
+        </div>
+
+        <div id="chat-bar-bottom">
+        <p></p>
+        
+        </div>
+
+       
+
+
+
+
+
+
+
+
+        <!-- button -->
+        <div class="chat-btn">
+            <img src="Circle-icons-chat.svg.png" alt="chat box icon btn">
+        </div>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
